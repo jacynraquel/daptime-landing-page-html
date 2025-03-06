@@ -1,0 +1,22 @@
+{
+  "name": "daptime-landing-page-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch --no-source-map assets/sass/style.scss assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacynraquel/daptime-landing-page-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacynraquel/daptime-landing-page-html/issues"
+  },
+  "homepage": "https://github.com/jacynraquel/daptime-landing-page-html#readme",
+  "dependencies": {
+    "sass": "^1.85.1"
+  }
+}

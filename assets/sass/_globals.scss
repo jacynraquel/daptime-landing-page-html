@@ -11,7 +11,14 @@ html{ font-size: 62.5%; overflow-x: hidden !important; letter-spacing: -.2px; }
 body{ font-family: 'Poppins', sans-serif; box-sizing: border-box; overflow-x: hidden !important;}
 a{ text-decoration: none !important; }
 ul{ list-style: none; }
+//body{ background: $gradient-bg !important; color: white !important;}
+header {background: $gradient-bg-dark !important;}
 
+/********************
+wrappers
+********************/
+.hero__wrapper{background: $gradient-bg !important;}
+.growth__wrapper{background: $gradient-bg !important;}
 /********************
 text styles
 ********************/
