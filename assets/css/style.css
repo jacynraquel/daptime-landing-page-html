@@ -1541,7 +1541,6 @@ hero
 ********************/
 .hero {
   width: 100vw;
-  margin-top: 5rem;
 }
 .hero__wrapper {
   width: calc(100% - 10rem);
@@ -1697,7 +1696,7 @@ hero
 }
 
 .hero-2 {
-  margin-top: 15rem;
+  margin-top: 20rem;
 }
 .hero-2 .hero__wrapper {
   padding: 10rem 0;
@@ -1797,7 +1796,7 @@ feature
   width: 100%;
   padding: 5.7rem 0.5rem 0.5rem 0.5rem;
   border-radius: 2.5rem;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .feature__box--content {
   background-color: white;

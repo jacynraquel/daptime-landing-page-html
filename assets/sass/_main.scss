@@ -143,7 +143,7 @@ header
 /********************
 hero
 ********************/
-.hero{ width: 100vw; margin-top: 5rem;
+.hero{ width: 100vw;
   &__wrapper{ width: calc(100% - 10rem); margin: 0 auto; border-radius: 3rem; background-color: #f0f7fc;
     padding: 18.4rem 0 9.9rem 0;
   }
@@ -204,7 +204,7 @@ hero
     }
   }
 }
-.hero-2{ margin-top: 15rem; 
+.hero-2{ margin-top: 20rem; 
   .hero__wrapper{ padding: 10rem 0; }
 }
 
@@ -249,7 +249,7 @@ feature
       }
       i{ font-size: 8rem; color: white; }
     }
-    &__wrapper{ width: 100%; padding: 5.7rem .5rem .5rem .5rem; border-radius: 2.5rem; margin-top: 5rem; }
+    &__wrapper{ width: 100%; padding: 5.7rem .5rem .5rem .5rem; border-radius: 2.5rem; margin-top: 1rem; }
     &--content{ background-color: white; position: relative; padding: 3.7rem 2rem 2.1rem 2rem; border-radius: 2rem; text-align: center;
       &::before{ content: ""; width: 4.8rem; height: 2.2rem; background: url(../images/arrow.png) no-repeat; background-size: cover;
         display: block; position: absolute; top: -2rem; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);
