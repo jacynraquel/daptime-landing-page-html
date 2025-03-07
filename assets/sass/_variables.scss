@@ -6,11 +6,15 @@ $color-para-dark: #666b6d;
 $gradient-bg: linear-gradient(to right, rgba(117, 36, 160, 0.3), rgba(68, 52, 75, 0.1));
 $primary-text-color: #FFFFFF;
 $gradient-bg-dark: linear-gradient(to right, rgba(117, 36, 160, 1), rgba(68, 52, 75, 1));
-
+$gradient-bg-dark-animated: linear-gradient(45deg, rgba(117, 36, 160, 1) 0%,  rgba(177, 100, 229, 1) 50%, rgba(68, 52, 75, 1) 100%);
+  //background: linear-gradient(45deg, rgba(255,0,174,1) 0%, rgba(145,0,255,1) 50%, rgba(255,0,174,1) 100%); - this is the original
+$gradient-bg-light: linear-gradient(to bottom right, rgba(161, 82, 220, 1), rgba(204, 128, 244, 1));
+$bold-font-Zen: 900;
+$regular-font-Zen: 400;
 /********************
 section
 ********************/
-$section-padding: 10rem;
+$section-padding: 5rem;
 $section-padding-responsive: 10rem;
 
 /********************

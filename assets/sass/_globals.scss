@@ -6,24 +6,23 @@ fonts
 /********************
 general
 ********************/
-*, *::before, *::after{ margin: 0; padding: 0; box-sizing: inherit; -webkit-font-smoothing: antialiased; }
+*, *::before, *::after{ margin: 0; padding: 0; box-sizing: inherit; -webkit-font-smoothing: antialiased; font-family: "Zen Kaku Gothic New", san-serif; }
 html{ font-size: 62.5%; overflow-x: hidden !important; letter-spacing: -.2px; }
 body{ font-family: 'Poppins', sans-serif; box-sizing: border-box; overflow-x: hidden !important;}
 a{ text-decoration: none !important; }
 ul{ list-style: none; }
 //body{ background: $gradient-bg !important; color: white !important;}
 header {background: $gradient-bg-dark !important;}
-
+span {font-weight: 900 !important;}
 /********************
 wrappers
 ********************/
-.hero__wrapper{background: $gradient-bg !important; }
-.growth__wrapper{background: $gradient-bg !important;}
+[class*="__wrapper"] {background: $gradient-bg; font-weight: $bold-font-Zen; margin: 2rem;}
 
 /********************
 text styles
 ********************/
-.section-heading{ font-weight: 600; font-size: 6rem; width: 68%; line-height: -4rem;
+.section-heading{ font-weight: 800; font-size: 6rem; width: 80%; line-height: -4rem;
     @media ( max-width: 991.98px ){ font-size: 5rem; text-align: center; margin: 0 auto 5rem auto; width: 85%; }
     @media (max-width: 575.98px){ font-size: 4rem; width: 90%; }
 }
@@ -32,6 +31,11 @@ text styles
     &.dark{ color: $color-para-dark; }
     &.white{ color: white; }
 }
+
+/********************
+paragraph
+********************/
+.paragraph {font-weight: $regular-font-Zen;}
 
 /********************
 bootstrap
@@ -113,7 +117,7 @@ social
 download buttons
 ********************/
 .download-buttons{
-    a{ display: flex; justify-content: center; align-items: center; width: 24.4rem; height: 8.1rem; background-color: grey;
+    a{ display: flex; justify-content: center; align-items: center; width: 24.4rem; height: 8.1rem; 
         border-radius: 5rem; @include animateIt;
         i{ font-size: 3.4rem; color: white; }
         .button-content{ margin-left: 1.3rem; letter-spacing: .1rem;
