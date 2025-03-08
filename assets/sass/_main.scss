@@ -14,7 +14,7 @@ body.loaded .preloader{ transform: translateY(-100%);}
 header
 ********************/
 .header{ position: absolute; top: 5rem; z-index: 100; background-color: transparent; padding: 3.6rem 0 5rem 0; width: 100%;
-  &__links{text-decoration: none; color: $primary-text-color; font-weight: 700; font-size: 3rem;
+  &__links{text-decoration: none; color: $primary-text-color; font-weight: 400; font-size: 3rem;
     &:hover{
       color: $primary-text-color;
       cursor-decoration: pointer;
@@ -98,7 +98,7 @@ header
 
 @media (max-width: 991.98px) {
 .header{
-  &__wrapper{ justify-content: space-between; padding: 0 5rem; }
+  &__wrapper{ justify-content: space-between; padding: 0 2rem; }
   &__nav{ width: 100vw; height: 130vh; width: 100%; position: absolute; top: -5rem; right: 100%; overflow: hidden !important;
     background: rgb(147,65,212); background: linear-gradient(45deg, rgba(147,65,212,1) 0%, rgba(217,142,251,1) 100%);
     @include animateIt; padding-top: 15%;
@@ -131,7 +131,7 @@ header
     &__wrapper{ padding: 0 5rem; }
   }
 }
-.header-2{ top: 0; padding: 4rem 0 4rem 0; background-color: white;
+.header-2{ top: 0; padding: 1rem 0 1rem 0; background-color: white;
   @media (max-width: 991.98px) {
     .header__nav{ top: 0; }
   }
@@ -144,8 +144,8 @@ header
 hero
 ********************/
 .hero{ width: 100vw;
-  &__wrapper{ width: calc(100% - 10rem); margin: 0 auto; border-radius: 3rem; background-color: #f0f7fc;
-    padding: 18.4rem 0 9.9rem 0;
+  &__wrapper{ width: 100%; margin: 3rem auto; border-radius: 3rem; background-color: #f0f7fc;
+    padding: 20rem 0 10rem 0;
   }
   .main-heading{ font-size: 8rem; font-weight: 600; color: $color-black; letter-spacing: -0.4rem; width: 100%; }
   .paragraph{ font-size: 2.4rem; line-height: 4rem; color: #474b4c; margin: 3.6rem 0 3.5rem 0; 
@@ -153,7 +153,7 @@ hero
   }
   .download-buttons{ a{ display: inline-flex; &:last-child{ margin-left: 2rem; } } }
   .hero-img{
-    &::before{ content: ""; display: block; position: absolute; width: 75.3rem; height: 75.3rem;
+    &::before{ content: ""; display: flex; flex:1; position: absolute; width: 75.3rem; height: 75.3rem;
       border-radius: 50%; top: 50%; transform: translateY(-50%); background: rgb(147,65,212); 
       background: linear-gradient(45deg, rgba(147,65,212,1) 0%, rgba(217,142,251,1) 50%, rgba(147,65,212,1) 100%);
       background-size: 200% 200%; background-position: left bottom;
@@ -205,7 +205,7 @@ hero
   }
 }
 .hero-2{ margin-top: 20rem; 
-  .hero__wrapper{ padding: 10rem 0; }
+  .hero__wrapper{ padding: 5rem 0; margin-top: 5 }
 }
 
 /********************
