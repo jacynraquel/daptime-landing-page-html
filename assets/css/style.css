@@ -86,6 +86,11 @@ wrappers
   background: transparent !important;
 }
 
+.footer__wrapper {
+  background: linear-gradient(to right, rgb(117, 36, 160), rgb(68, 52, 75)) !important;
+  padding: 7rem !important;
+}
+
 /********************
 text styles
 ********************/
