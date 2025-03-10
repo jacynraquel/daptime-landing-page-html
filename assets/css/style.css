@@ -34,7 +34,7 @@ general
   padding: 0;
   box-sizing: inherit;
   -webkit-font-smoothing: antialiased;
-  font-family: "Zen Kaku Gothic New", san-serif;
+  font-family: "Poppins", san-serif;
 }
 
 html {
@@ -69,9 +69,21 @@ span {
 wrappers
 ********************/
 [class*=__wrapper] {
-  background: linear-gradient(to right, rgba(117, 36, 160, 0.3), rgba(68, 52, 75, 0.1));
+  background: linear-gradient(to right, rgba(117, 36, 160, 0.1), rgba(68, 52, 75, 0.05));
   font-weight: 900;
   margin: 2rem;
+}
+
+.hero__wrapper {
+  background: #ffffff !important;
+}
+
+.button__wrapper {
+  background: transparent !important;
+}
+
+.testimonial__wrapper {
+  background: transparent !important;
 }
 
 /********************
@@ -87,7 +99,7 @@ text styles
   .section-heading {
     font-size: 5rem;
     text-align: center;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto 5rem 0;
     width: 85%;
   }
 }
@@ -1226,6 +1238,7 @@ header
 .header__links {
   text-decoration: none;
   color: #FFFFFF;
+  font-family: "Zen Kaku Gothic New", sans-serif !important;
   font-weight: 400;
   font-size: 3rem;
 }
@@ -1560,6 +1573,7 @@ hero
   padding: 20rem 0 10rem 0;
 }
 .hero .main-heading {
+  font-family: "Poppins", sans-serif;
   font-size: 8rem;
   font-weight: 600;
   color: #000000;
@@ -2035,12 +2049,13 @@ growth
 }
 .growth__wrapper {
   background-color: #f0f7fc;
-  padding: 5rem 0;
+  padding: 5rem 10rem;
   width: calc(100% - 10rem);
   margin: 0 auto;
   border-radius: 3rem;
 }
 .growth .section-heading {
+  width: 90% !important;
   text-align: center;
   margin: 0 auto 5rem auto;
 }
@@ -2048,6 +2063,8 @@ growth
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
+  width: 100%;
 }
 .growth__box .icon {
   width: 11.9rem;
@@ -2077,6 +2094,9 @@ growth
 }
 .growth__box .content {
   width: 72%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100;
   background-color: white;
   position: relative;
   border-radius: 2rem;
@@ -2326,7 +2346,7 @@ client
 }
 .clients-sec .section-heading {
   text-align: center;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 2rem auto;
   width: 59%;
 }
 .clients-sec .testimonial__wrapper {
@@ -2335,7 +2355,7 @@ client
   flex-wrap: wrap;
   width: 100%;
   position: relative;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 .clients-sec .testimonial__wrapper .client {
   width: 50%;
@@ -2664,8 +2684,8 @@ pricing
   padding: 5rem 0;
 }
 .pricing .section-heading {
-  text-align: center;
-  margin: 0 auto 5rem auto;
+  text-align: left;
+  margin: 0 auto 5rem 0;
   width: 33%;
 }
 .pricing__single {
@@ -2731,10 +2751,10 @@ pricing
 }
 .pricing__single .list ul {
   font-size: 1.6rem;
-  line-height: 4rem;
+  line-height: 2.5rem;
   color: #666b6d;
   width: 100%;
-  padding-left: 5.3rem;
+  padding-left: 2rem;
 }
 .pricing__single .list ul li {
   position: relative;
@@ -2743,13 +2763,7 @@ pricing
   content: "\f00c";
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
-  font-size: 1.4rem;
-  position: absolute;
-  top: 50%;
-  left: -2.2rem;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  display: inline-block;
+  font-size: 2rem;
 }
 .pricing__single .list ul li.not-included::before {
   content: "\f00d";

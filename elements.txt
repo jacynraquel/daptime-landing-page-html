@@ -1,0 +1,255 @@
+<!-- Elements removed but can be used later in the html -->
+
+<!-- navbar section start -->
+<!-- <div class="header__nav">
+          <ul class="header__nav-primary">
+            <li><a href="index.html"><i class="fad fa-home-alt"></i></a></li>
+            <li class="nav__dropdown dropdown-wrapper" id="menu-1">
+              <a href="#" class="nav__dropdown-info dropdown-info">
+                Home
+              </a>
+              <ul class="nav__dropdown-box dropdown-box">
+                <li><a href="index.html">Home 1</a></li>
+                <li><a href="index2.html">Home 2</a></li>
+              </ul>
+            </li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#feature">Features</a></li>
+            <li><a href="#feedback">Feedbacks</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#preview">Preview</a></li>
+            <li class="nav__dropdown dropdown-wrapper" id="menu-2">
+              <a href="#" class="nav__dropdown-info dropdown-info">
+                Pages
+              </a>
+              <ul class="nav__dropdown-box dropdown-box">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blog-single.html">Blog single</a></li>
+              </ul>
+            </li>
+          </ul>
+          <span><i class="fas fa-times"></i></span>
+        </div> -->
+<!-- navbar section end -->
+
+<!--growth section start-->
+  <section class="growth" id="feature">
+    <div class="growth__wrapper">
+      <div class="container">
+        <h2 class="section-heading color-black">App that assists exponential growth.</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="growth__box">
+              <div class="icon">
+                <i class="fad fa-user-astronaut"></i>
+              </div>
+              <div class="content">
+                <h3>Start Easily</h3>
+                <p class="paragraph dark">Auisque metus tortor ultricies ac ligula neced eleifend sodales felise.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="growth__box">
+              <div class="icon">
+                <i class="fad fa-lightbulb-on"></i>
+              </div>
+              <div class="content">
+                <h3>Improve Growth</h3>
+                <p class="paragraph dark">Kuisque metus tortor ultricies ac ligula neced eleifend sodales felise.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="growth__box">
+              <div class="icon">
+                <i class="fad fa-solar-system"></i>
+              </div>
+              <div class="content">
+                <h3>Create Algorithms</h3>
+                <p class="paragraph dark">Nuisque metus tortor ultricies ac ligula neced eleifend sodales felise.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="growth__box">
+              <div class="icon">
+                <i class="fad fa-backpack"></i>
+              </div>
+              <div class="content">
+                <h3>Expand Portfolio</h3>
+                <p class="paragraph dark">Euisque metus tortor ultricies ac ligula neced eleifend sodales felise.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="growth__box">
+              <div class="icon">
+                <i class="fad fa-rocket-launch"></i>
+              </div>
+              <div class="content">
+                <h3>Share Statistics</h3>
+                <p class="paragraph dark">Buisque metus tortor ultricies ac ligula neced eleifend sodales felise.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="growth__box">
+              <div class="icon">
+                <i class="fad fa-user-astronaut"></i>
+              </div>
+              <div class="content">
+                <h3>Measure Results</h3>
+                <p class="paragraph dark">Suisque metus tortor ultricies ac ligula neced eleifend sodales felise.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="button__wrapper">
+            <a href="#" class="button">
+              <span>GET STARTED <i class="fad fa-long-arrow-right"></i></span>
+            </a>
+            <a href="#" class="button">
+              <span>LEARN MORE <i class="fad fa-long-arrow-right"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--growth section end-->
+
+  <!--related blog section start-->
+  <section class="related-blog blog">
+    <div class="related-blog__wrapper">
+      <h2 class="section-heading color-black">Read latest news from our blog.</h2>
+      <div class="blog__content">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <a href="blog-single.html">
+                <div class="blog__single blog__single--1">
+                  <div class="blog__single-image">
+                    <img src="assets/images/blog-img-1.png" alt="image">
+                  </div>
+                  <div class="blog__single-info">
+                    <h3>New features coming in 2020 to our app.</h3>
+                    <h4>12 <i class="fad fa-comment"></i><span>|</span>Dec 17, 2020</h4>
+                    <p class="paragraph dark">Suisque metus tortor ultricies ac ligula neced
+                      eleifend dales felise morbi nec tempor isvel ultricies lideula. </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-8">
+              <a href="blog-single.html">
+                <div class="blog__single blog__single--2">
+                  <div class="blog__single-image">
+                    <img src="assets/images/blog-img-2.png" alt="image">
+                  </div>
+                  <div class="blog__single-info">
+                    <h3>New features coming in 2020 to our app.</h3>
+                    <h4>12 <i class="fad fa-comment"></i><span>|</span>Dec 17, 2020</h4>
+                    <p class="paragraph dark">Suisque metus tortor ultricies ac ligula neced
+                      eleifend dales felise morbi nec tempor isvel ultricies lideula. </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="blog.html" class="button">
+        <span>GO TO BLOG <i class="fad fa-long-arrow-right"></i></span>
+      </a>
+    </div>
+  </section>
+  <!--related blog section end-->
+
+  <!-- FAQs card start -->
+    <div class="card" id="card-6">
+                <div class="card-header" id="heading-6">
+                  <h5 class="mb-0 hidden">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-6"
+                      aria-expanded="false" aria-controls="collapse-6">
+                      What is a business rules engine?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="paragraph">With increasing calls for government accountability and cost savings, agencies
+                      are contending with a mountain
+                      of rule and policy changes affecting everything from pensions and benefits, to client eligibility
+                      and oversight.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card" id="card-7">
+                <div class="card-header" id="heading-7">
+                  <h5 class="mb-0 hidden">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-7"
+                      aria-expanded="false" aria-controls="collapse-7">
+                      What are the types of datadirect drivers?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapse-7" class="collapse" aria-labelledby="heading-7" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="paragraph">With increasing calls for government accountability and cost savings, agencies
+                      are contending with a mountain
+                      of rule and policy changes affecting everything from pensions and benefits, to client eligibility
+                      and oversight.</p>
+                  </div>
+                </div>
+  <!-- FAQs card end -->
+
+  <!-- Plan section boxes -->
+  <div class="col-lg-4">
+    <div class="pricing__single pricing__single-2">
+      <div class="icon">
+        <i class="fad fa-user-cowboy"></i>
+      </div>
+      <h4>COWBOY</h4>
+      <h3>$10.00</h3>
+      <h6>3 to 19 users</h6>
+      <div class="list">
+        <ul>
+          <li>20 polls per month</li>
+          <li>1 email address</li>
+          <li>2GB cloud storage</li>
+          <li>No customer support</li>
+          <li class="not-included">Extra features</li>
+          <li class="not-included">In-app products</li>
+        </ul>
+      </div>
+      <a href="#" class="button">
+        <span>GET STARTED <i class="fad fa-long-arrow-right"></i></span>
+      </a>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="pricing__single pricing__single-3">
+      <div class="icon">
+        <i class="fad fa-user-astronaut"></i>
+      </div>
+      <h4>ASTRONAUT</h4>
+      <h3>$20.00</h3>
+      <h6>20 to 50 users</h6>
+      <div class="list">
+        <ul>
+          <li>20 polls per month</li>
+          <li>1 email address</li>
+          <li>2GB cloud storage</li>
+          <li>No customer support</li>
+          <li>Extra features</li>
+          <li>In-app products</li>
+        </ul>
+      </div>
+      <a href="#" class="button">
+        <span>GET STARTED <i class="fad fa-long-arrow-right"></i></span>
+      </a>
+    </div>
+  <!-- Plan section boxes -->

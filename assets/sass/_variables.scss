@@ -3,7 +3,7 @@ preloader
 ********************/
 $color-black: #000000;
 $color-para-dark: #666b6d;
-$gradient-bg: linear-gradient(to right, rgba(117, 36, 160, 0.3), rgba(68, 52, 75, 0.1));
+$gradient-bg: linear-gradient(to right, rgba(117, 36, 160, 0.1), rgba(68, 52, 75, 0.05));
 $primary-text-color: #FFFFFF;
 $gradient-bg-dark: linear-gradient(to right, rgba(117, 36, 160, 1), rgba(68, 52, 75, 1));
 $gradient-bg-dark-animated: linear-gradient(45deg, rgba(117, 36, 160, 1) 0%,  rgba(177, 100, 229, 1) 50%, rgba(68, 52, 75, 1) 100%);
@@ -11,6 +11,7 @@ $gradient-bg-dark-animated: linear-gradient(45deg, rgba(117, 36, 160, 1) 0%,  rg
 $gradient-bg-light: linear-gradient(to bottom right, rgba(161, 82, 220, 1), rgba(204, 128, 244, 1));
 $bold-font-Zen: 900;
 $regular-font-Zen: 400;
+
 /********************
 section
 ********************/

@@ -6,26 +6,34 @@ fonts
 /********************
 general
 ********************/
-*, *::before, *::after{ margin: 0; padding: 0; box-sizing: inherit; -webkit-font-smoothing: antialiased; font-family: "Zen Kaku Gothic New", san-serif; }
+*, *::before, *::after{ margin: 0; padding: 0; box-sizing: inherit; -webkit-font-smoothing: antialiased; font-family: "Poppins", san-serif; }
 html{ font-size: 62.5%; overflow-x: hidden !important; letter-spacing: -.2px; }
-body{ font-family: 'Poppins', sans-serif; box-sizing: border-box; overflow-x: hidden !important;}
+body{ font-family: "Poppins", sans-serif; box-sizing: border-box; overflow-x: hidden !important;}
 a{ text-decoration: none !important; }
 ul{ list-style: none; }
 //body{ background: $gradient-bg !important; color: white !important;}
 header {background: $gradient-bg-dark !important;}
 span {font-weight: 900 !important;}
+
 /********************
 wrappers
 ********************/
 [class*="__wrapper"] {background: $gradient-bg; font-weight: $bold-font-Zen; margin: 2rem;}
 
+.hero__wrapper {background: #ffffff !important;}
+
+.button__wrapper {background: transparent !important;}
+
+.testimonial__wrapper {background: transparent !important;}
 /********************
 text styles
 ********************/
+
 .section-heading{ font-weight: 800; font-size: 6rem; width: 80%; line-height: -4rem;
-    @media ( max-width: 991.98px ){ font-size: 5rem; text-align: center; margin: 0 auto 5rem auto; width: 85%; }
+    @media ( max-width: 991.98px ){ font-size: 5rem; text-align: center; margin: 0 auto 5rem 0; width: 85%; }
     @media (max-width: 575.98px){ font-size: 4rem; width: 90%; }
 }
+
 .color-black{ color: $color-black; }
 .paragraph{ font-size: 1.6rem; line-height: 3rem; 
     &.dark{ color: $color-para-dark; }
