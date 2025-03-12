@@ -567,6 +567,7 @@ questions
 ********************/
 .questions{ width: 100vw;
   &__wrapper{ background-color: #fef2f6; padding: $section-padding 0; width: calc(100% - 10rem); margin: 0 auto; border-radius: 3rem; }
+  .btn {text-align: left !important;}
   .section-heading{ width: 50%; }
   .card{
     background-color: transparent; border: 0;
@@ -649,7 +650,7 @@ pricing
 ********************/
 .pricing{ width: 100vw;
   &__wrapper{ width: 100%; padding: $section-padding 0; }
-  .section-heading{ text-align: left; margin: 0 auto 5rem 0; width: 33%; }
+  .section-heading{ text-align: left; margin: 0 auto 5rem ; width: 33%; }
   &__single{ 
     padding: 4.5rem 0 2.3rem 0; display: flex; flex-direction: column; align-items: center; border-radius: 3rem;
     .icon{ width: 13.8rem; height: 13.8rem; background-color: white; border-radius: 50%; display: flex; justify-content: center;

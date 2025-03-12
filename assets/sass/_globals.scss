@@ -26,7 +26,7 @@ wrappers
 
 .testimonial__wrapper {background: transparent !important;}
 
-.footer__wrapper {background: $gradient-bg-dark!important; padding: 7rem !important;}
+.footer__wrapper {background: $gradient-bg-dark!important; padding: 7rem !important; color: $primary-text-color !important;}
 /********************
 text styles
 ********************/
@@ -58,6 +58,12 @@ font awesome
 .fad.fa-lightbulb-on, .fad.fa-search, .fad.fa-angle-double-down{
   &::before{ opacity: var(--fa-primary-opacity, .5); }
   &::after{ opacity: var(--fa-secondary-opacity, 1); }
+}
+.fas, .fab {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    display: inline-block !important;
+    visibility: visible !important;
 }
 
 /********************
