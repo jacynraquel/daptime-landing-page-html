@@ -221,7 +221,7 @@ button
 social
 ********************/
 .social ul li {
-  display: inline-block;
+  display: block;
   width: 4.8rem;
   height: 4.8rem;
   border-radius: 50%;
@@ -3201,7 +3201,7 @@ footer
 .footer__list ul li:first-child {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 5.6rem;
 }
 .footer__list ul li:nth-child(n+2) {
@@ -3209,14 +3209,14 @@ footer
 }
 .footer__list ul li a {
   font-size: 1.6rem;
-  color: #707577;
+  color: #ffffff;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 .footer__list ul li a:hover {
-  color: #000000;
+  color: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
 }
 .footer__content-wrapper {
   display: flex;

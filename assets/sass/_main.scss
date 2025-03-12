@@ -879,10 +879,10 @@ footer
   &__list{
     ul{
       li{
-        &:first-child{ font-size: 1.8rem; font-weight: 600; color: $color-black; margin-bottom: 5.6rem; }
+        &:first-child{ font-size: 1.8rem; font-weight: 600; color: $color-light; margin-bottom: 5.6rem; }
         &:nth-child(n+2){ margin-bottom: 1.7rem; }
-        a{ font-size: 1.6rem; color: #707577; @include animateIt;
-          &:hover{ color: $color-black; }
+        a{ font-size: 1.6rem; color: $color-light; @include animateIt;
+          &:hover{ color: $gradient-bg-light; }
         }
       }
     }
