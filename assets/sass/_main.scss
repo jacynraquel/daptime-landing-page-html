@@ -649,8 +649,9 @@ questions
 pricing
 ********************/
 .pricing{ width: 100vw;
+  &__big_text{font-size: 2rem;}
   &__wrapper{ width: 100%; padding: $section-padding 0; }
-  .section-heading{ text-align: left; margin: 0 auto 5rem ; width: 33%; }
+  .section-heading{ text-align: left; margin: 0; width: 33%; }
   &__single{ 
     padding: 4.5rem 0 2.3rem 0; display: flex; flex-direction: column; align-items: center; border-radius: 3rem;
     .icon{ width: 13.8rem; height: 13.8rem; background-color: white; border-radius: 50%; display: flex; justify-content: center;
@@ -666,10 +667,10 @@ pricing
       &::before{ content: ""; width: 4.8rem; height: 2.2rem; background: url(../images/arrow.png) no-repeat; background-size: cover;
         display: block; position: absolute; top: -2rem; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);
       }
-      ul{ font-size: 1.6rem; line-height: 2.5rem; color: $color-para-dark; width: 100%; padding-left: 2rem;
+      ul{ font-size: 1.6rem; line-height: 2.5rem; color: $color-para-dark; width: 60%; margin: 0 auto 0 auto !important;
         li{ position: relative; 
-          &::before{ content: "\f00c"; font-family: "Font Awesome 5 Pro"; font-weight: 900; font-size: 2rem;
-             }
+          &::before{ content: "\f00c"; font-family: "Font Awesome 5 Pro"; font-weight: 800; font-size: 2rem;
+          }
           &.not-included::before{ content: "\f00d"; }
         }
       }
@@ -879,10 +880,10 @@ footer
   &__list{
     ul{
       li{
-        &:first-child{ font-size: 1.8rem; font-weight: 600; color: $color-black; margin-bottom: 5.6rem; }
+        &:first-child{ font-size: 1.8rem; font-weight: 600; color: $color-light; margin-bottom: 5.6rem; }
         &:nth-child(n+2){ margin-bottom: 1.7rem; }
-        a{ font-size: 1.6rem; color: #707577; @include animateIt;
-          &:hover{ color: $color-black; }
+        a{ font-size: 1.6rem; color: $color-light; @include animateIt;
+          &:hover{ color: $gradient-bg-light; }
         }
       }
     }

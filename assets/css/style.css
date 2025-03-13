@@ -92,27 +92,77 @@ wrappers
   color: #FFFFFF !important;
 }
 
+.pricing__wrapper {
+  background: transparent !important;
+}
+
 /********************
 text styles
 ********************/
 .section-heading {
   font-weight: 800;
   font-size: 6rem;
-  width: 80%;
+  width: 95% !important;
+  text-align: center;
   line-height: -4rem;
 }
 @media (max-width: 991.98px) {
   .section-heading {
     font-size: 5rem;
-    text-align: center;
+    text-align: center !important;
     margin: 0 auto 5rem 0;
-    width: 85%;
+    width: 90%;
   }
 }
 @media (max-width: 575.98px) {
   .section-heading {
     font-size: 4rem;
     width: 90%;
+    text-align: center !important;
+  }
+}
+
+.section-subheading {
+  font-weight: 600;
+  font-size: 5rem;
+  width: 90%;
+  text-align: left;
+  line-height: -5rem;
+}
+@media (max-width: 991.98px) {
+  .section-subheading {
+    font-size: 4rem;
+    width: 95%;
+    text-align: center !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .section-subheading {
+    width: 95%;
+    font-size: 3rem;
+    text-align: center !important;
+  }
+}
+
+.section-subheading-small {
+  font-weight: 400;
+  font-size: 2rem;
+  width: 100%;
+  line-height: -3rem;
+}
+@media (max-width: 991.98px) {
+  .section-subheading-small {
+    font-size: 1rem;
+    margin: 0 auto 3rem 0;
+    width: 80%;
+    text-align: center !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .section-subheading-small {
+    font-size: 0.5rem;
+    width: 100%;
+    text-align: center !important;
   }
 }
 
@@ -123,6 +173,14 @@ text styles
 .paragraph {
   font-size: 1.6rem;
   line-height: 3rem;
+  width: 95%;
+}
+@media (max-width: 991.98px) {
+  .paragraph {
+    font-size: 1.6rem;
+    width: 90%;
+    text-align: center !important;
+  }
 }
 .paragraph.dark {
   color: #666b6d;
@@ -155,8 +213,8 @@ font awesome
   opacity: var(--fa-secondary-opacity, 1);
 }
 
-.fas, .fab {
-  font-family: "Font Awesome 6 Free" !important;
+.fas, .fab, .far, .fal, .fad {
+  font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
   display: inline-block !important;
   visibility: visible !important;
@@ -221,7 +279,7 @@ button
 social
 ********************/
 .social ul li {
-  display: inline-block;
+  display: block;
   width: 4.8rem;
   height: 4.8rem;
   border-radius: 50%;
@@ -2695,13 +2753,16 @@ pricing
 .pricing {
   width: 100vw;
 }
+.pricing__big_text {
+  font-size: 2rem;
+}
 .pricing__wrapper {
   width: 100%;
   padding: 5rem 0;
 }
 .pricing .section-heading {
   text-align: left;
-  margin: 0 auto 5rem;
+  margin: 0;
   width: 33%;
 }
 .pricing__single {
@@ -2769,8 +2830,8 @@ pricing
   font-size: 1.6rem;
   line-height: 2.5rem;
   color: #666b6d;
-  width: 100%;
-  padding-left: 2rem;
+  width: 60%;
+  margin: 0 auto 0 auto !important;
 }
 .pricing__single .list ul li {
   position: relative;
@@ -2778,7 +2839,7 @@ pricing
 .pricing__single .list ul li::before {
   content: "\f00c";
   font-family: "Font Awesome 5 Pro";
-  font-weight: 900;
+  font-weight: 800;
   font-size: 2rem;
 }
 .pricing__single .list ul li.not-included::before {
@@ -3201,7 +3262,7 @@ footer
 .footer__list ul li:first-child {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #000000;
+  color: #ffffff;
   margin-bottom: 5.6rem;
 }
 .footer__list ul li:nth-child(n+2) {
@@ -3209,14 +3270,14 @@ footer
 }
 .footer__list ul li a {
   font-size: 1.6rem;
-  color: #707577;
+  color: #ffffff;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
 }
 .footer__list ul li a:hover {
-  color: #000000;
+  color: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
 }
 .footer__content-wrapper {
   display: flex;
