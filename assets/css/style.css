@@ -102,40 +102,45 @@ text styles
 .section-heading {
   font-weight: 800;
   font-size: 6rem;
-  width: 90% !important;
+  width: 95% !important;
+  text-align: center;
   line-height: -4rem;
 }
 @media (max-width: 991.98px) {
   .section-heading {
     font-size: 5rem;
-    text-align: center;
+    text-align: center !important;
     margin: 0 auto 5rem 0;
-    width: 85%;
+    width: 90%;
   }
 }
 @media (max-width: 575.98px) {
   .section-heading {
     font-size: 4rem;
     width: 90%;
+    text-align: center !important;
   }
 }
 
 .section-subheading {
   font-weight: 600;
-  font-size: 4rem;
-  width: 100%;
+  font-size: 5rem;
+  width: 90%;
+  text-align: left;
   line-height: -5rem;
 }
 @media (max-width: 991.98px) {
   .section-subheading {
-    font-size: 3rem;
-    width: 80%;
+    font-size: 4rem;
+    width: 95%;
+    text-align: center !important;
   }
 }
 @media (max-width: 575.98px) {
   .section-subheading {
-    font-size: 2rem;
-    width: 90px;
+    width: 95%;
+    font-size: 3rem;
+    text-align: center !important;
   }
 }
 
@@ -150,12 +155,14 @@ text styles
     font-size: 1rem;
     margin: 0 auto 3rem 0;
     width: 80%;
+    text-align: center !important;
   }
 }
 @media (max-width: 575.98px) {
   .section-subheading-small {
     font-size: 0.5rem;
-    width: 90px;
+    width: 100%;
+    text-align: center !important;
   }
 }
 
@@ -166,6 +173,14 @@ text styles
 .paragraph {
   font-size: 1.6rem;
   line-height: 3rem;
+  width: 95%;
+}
+@media (max-width: 991.98px) {
+  .paragraph {
+    font-size: 1.6rem;
+    width: 90%;
+    text-align: center !important;
+  }
 }
 .paragraph.dark {
   color: #666b6d;

@@ -33,24 +33,25 @@ wrappers
 text styles
 ********************/
 
-.section-heading{ font-weight: 800; font-size: 6rem; width: 90% !important; line-height: -4rem;
-    @media ( max-width: 991.98px ){ font-size: 5rem; text-align: center; margin: 0 auto 5rem 0; width: 85%; }
-    @media (max-width: 575.98px){ font-size: 4rem; width: 90%; }
+.section-heading{ font-weight: 800; font-size: 6rem; width: 95% !important; text-align:center; line-height: -4rem;
+    @media ( max-width: 991.98px ){ font-size: 5rem; text-align: center !important; margin: 0 auto 5rem 0; width: 90%; }
+    @media (max-width: 575.98px){ font-size: 4rem; width: 90%; text-align:center !important; }
 }
 
-.section-subheading{ font-weight: 600; font-size: 4rem; width: 100%; line-height: -5rem;
-    @media (max-width: 991.98px){ font-size: 3rem; width: 80%;}
-    @media (max-width: 575.98px){font-size: 2rem; width:90px;}
+.section-subheading{ font-weight: 600; font-size: 5rem; width: 90%; text-align:left; line-height: -5rem;
+    @media (max-width: 991.98px){ font-size: 4rem; width: 95%; text-align: center !important;}
+    @media (max-width: 575.98px){width: 95%; font-size: 3rem; text-align: center !important;}
 }
 
 .section-subheading-small{ font-weight: 400; font-size: 2rem; width: 100%; line-height: -3rem;
-    @media (max-width: 991.98px){ font-size: 1rem; margin: 0 auto 3rem 0; width: 80%;}
-    @media (max-width: 575.98px){font-size: 0.5rem; width:90px;}
+    @media (max-width: 991.98px){ font-size: 1rem; margin: 0 auto 3rem 0; width: 80%; text-align: center !important;}
+    @media (max-width: 575.98px){font-size: 0.5rem; width:100%; text-align: center !important;}
 }
 
 
 .color-black{ color: $color-black; }
-.paragraph{ font-size: 1.6rem; line-height: 3rem; 
+.paragraph{ font-size: 1.6rem; line-height: 3rem; width: 95%;
+    @media (max-width: 991.98px){ font-size: 1.6rem; width: 90%; text-align: center !important;}
     &.dark{ color: $color-para-dark; }
     &.white{ color: white; }
 }
