@@ -27,14 +27,27 @@ wrappers
 .testimonial__wrapper {background: transparent !important;}
 
 .footer__wrapper {background: $gradient-bg-dark!important; padding: 7rem !important; color: $primary-text-color !important;}
+
+.pricing__wrapper {background: transparent !important;}
 /********************
 text styles
 ********************/
 
-.section-heading{ font-weight: 800; font-size: 6rem; width: 80%; line-height: -4rem;
+.section-heading{ font-weight: 800; font-size: 6rem; width: 90% !important; line-height: -4rem;
     @media ( max-width: 991.98px ){ font-size: 5rem; text-align: center; margin: 0 auto 5rem 0; width: 85%; }
     @media (max-width: 575.98px){ font-size: 4rem; width: 90%; }
 }
+
+.section-subheading{ font-weight: 600; font-size: 4rem; width: 100%; line-height: -5rem;
+    @media (max-width: 991.98px){ font-size: 3rem; width: 80%;}
+    @media (max-width: 575.98px){font-size: 2rem; width:90px;}
+}
+
+.section-subheading-small{ font-weight: 400; font-size: 2rem; width: 100%; line-height: -3rem;
+    @media (max-width: 991.98px){ font-size: 1rem; margin: 0 auto 3rem 0; width: 80%;}
+    @media (max-width: 575.98px){font-size: 0.5rem; width:90px;}
+}
+
 
 .color-black{ color: $color-black; }
 .paragraph{ font-size: 1.6rem; line-height: 3rem; 
@@ -59,8 +72,8 @@ font awesome
   &::before{ opacity: var(--fa-primary-opacity, .5); }
   &::after{ opacity: var(--fa-secondary-opacity, 1); }
 }
-.fas, .fab {
-    font-family: "Font Awesome 6 Free" !important;
+.fas, .fab, .far, .fal, .fad {
+    font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
     display: inline-block !important;
     visibility: visible !important;
