@@ -96,6 +96,10 @@ wrappers
   background: transparent !important;
 }
 
+.questions__wrapper {
+  background: #E5E6F4 !important;
+}
+
 /********************
 text styles
 ********************/
@@ -2185,18 +2189,6 @@ growth
   border-radius: 2rem;
   padding: 3.7rem 6.2rem 2.5rem 4rem;
 }
-@media (max-width: 991.98px) {
-  .growth__box .content {
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    height: 100;
-    background-color: white;
-    position: relative;
-    border-radius: 2rem;
-    padding: auto;
-  }
-}
 .growth__box .content h3 {
   font-size: 2.2rem;
   font-weight: 600;
@@ -2335,7 +2327,7 @@ step
 }
 .step__wrapper {
   margin: 5rem 0;
-  background-color: #fff6e9;
+  background-color: #f0f7fc;
   padding: 5rem 0;
   width: calc(100% - 10rem);
   margin: 0 auto;
@@ -2350,9 +2342,9 @@ step
 }
 .step__box .image {
   width: 100%;
-  filter: drop-shadow(0px 40px 20px rgba(255, 186, 114, 0.4));
-  -webkit-filter: drop-shadow(0px 40px 20px rgba(255, 186, 114, 0.4));
-  -moz-filter: drop-shadow(0px 40px 20px rgba(255, 186, 114, 0.4));
+  filter: drop-shadow(0px 40px 20px rgba(240, 247, 252, 0.5));
+  -webkit-filter: drop-shadow(0px 40px 20px rgba(240, 247, 252, 0.5));
+  -moz-filter: drop-shadow(0px 40px 20px rgba(240, 247, 252, 0.5));
   transform: var(--transform-fix);
   backface-visibility: hidden;
   perspective: 1000;
@@ -2381,10 +2373,12 @@ step
   width: 94%;
 }
 .step .button {
-  border: 4px solid #ffd588;
+  border: 4px solid #A43AE5;
+  color: #000;
 }
 .step .button:focus, .step .button:hover {
-  background-color: #ffd588;
+  background-color: #A43AE5;
+  color: #ffffff;
 }
 .step .button__wrapper {
   margin-top: 3.4rem;
@@ -2393,8 +2387,8 @@ step
   margin-top: 5rem;
 }
 .step .button__wrapper a {
-  background: rgb(19, 105, 236);
-  background: linear-gradient(0deg, rgba(19, 105, 236, 0) 0%, rgba(255, 177, 107, 0) 50%, rgb(255, 177, 107) 51%, rgb(255, 219, 141) 100%);
+  background: #A43AE5;
+  background: linear-gradient(0deg, rgba(164, 58, 229, 0) 0%, rgba(164, 58, 229, 0.5) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
   background-size: 200% 200%;
   background-position: center bottom;
   transform: var(--transform-fix);
@@ -2404,9 +2398,9 @@ step
 .step .button__wrapper a:hover {
   background-position: center top;
   border: none;
-  filter: drop-shadow(0px 10px 20px rgba(255, 186, 114, 0.4));
-  -webkit-filter: drop-shadow(0px 10px 20px rgba(255, 186, 114, 0.4));
-  -moz-filter: drop-shadow(0px 10px 20px rgba(255, 186, 114, 0.4));
+  filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
+  -webkit-filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
+  -moz-filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
 }
 @media (max-width: 991.98px) {
   .step__wrapper {
@@ -2474,12 +2468,12 @@ client
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
-  background: rgb(25, 165, 161);
+  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
   backface-visibility: hidden;
   perspective: 1000;
   backface-visibility: hidden;
   perspective: 1000;
-  background: linear-gradient(45deg, rgb(25, 165, 161) 0%, rgb(99, 232, 228) 100%);
+  background: linear-gradient(to right, rgb(117, 36, 160), rgb(68, 52, 75));
   width: 60%;
   height: 100%;
   color: white;
@@ -2490,9 +2484,9 @@ client
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  filter: drop-shadow(0px 20px 10px rgba(79, 188, 186, 0.4));
-  -webkit-filter: drop-shadow(0px 20px 10px rgba(79, 188, 186, 0.4));
-  -moz-filter: drop-shadow(0px 20px 10px rgba(79, 188, 186, 0.4));
+  filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
+  -webkit-filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
+  -moz-filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
 }
 .clients-sec .testimonial__wrapper .client .testimonial h4 {
   font-weight: 600;
@@ -2634,7 +2628,7 @@ questions
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   font-size: 2.2rem;
-  color: #f41a77;
+  color: #A43AE5;
   position: absolute;
   top: 50%;
   left: -1.2rem;
@@ -2683,25 +2677,26 @@ questions
 }
 .questions-img::before {
   content: "";
-  display: block;
+  display: flex;
+  flex: 1;
   position: absolute;
   width: 75.3rem;
   height: 75.3rem;
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
-  background: rgb(242, 2, 107);
-  background: linear-gradient(45deg, rgb(242, 2, 107) 0%, rgb(255, 138, 175) 50%, rgb(242, 2, 107) 100%);
+  background: rgb(147, 65, 212);
+  background: linear-gradient(45deg, rgb(147, 65, 212) 0%, rgb(217, 142, 251) 50%, rgb(147, 65, 212) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
-  filter: drop-shadow(0px 5px 40px #f54590);
-  -webkit-filter: drop-shadow(0px 5px 40px #f54590);
-  -moz-filter: drop-shadow(0px 5px 40px #f54590);
+  backface-visibility: hidden;
+  perspective: 1000;
+  filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+  -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+  -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
-  backface-visibility: hidden;
-  perspective: 1000;
 }
 @media (max-width: 991.98px) {
   .questions-img {
