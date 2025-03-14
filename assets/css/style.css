@@ -1331,6 +1331,13 @@ header
   justify-content: center;
   width: 100%;
 }
+@media (max-width: 991.98px) {
+  .header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .header__nav-primary {
   margin-bottom: 0;
 }
