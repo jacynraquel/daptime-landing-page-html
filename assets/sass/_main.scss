@@ -20,7 +20,7 @@ header
       cursor-decoration: pointer;
     }}
   &__wrapper{ display: flex; padding: 0; align-items: flex-end; justify-content: center; width: 100%; 
-    @media (max-width: 991.98px){display: flex; align-items:center; justify-content: center;}
+    &__logo {}
   }
   &__nav{
     &-primary{ margin-bottom: 0;
@@ -364,6 +364,7 @@ growth
       i{ font-size: 5rem; color: #3890f0; @include absoluteCenter; }
     }
     .content{ width: 72%; flex-direction:column; justify-content: center; height:100; background-color: white; position: relative; border-radius: 2rem; padding: 3.7rem 6.2rem 2.5rem 4rem;
+      @media (max-width: 991.98px){width:100%;flex-direction:column; justify-content: center; height:100; background-color: white; position: relative; border-radius: 2rem; padding: auto;}
       h3{ font-size: 2.2rem; font-weight: 600; width: 80%; }
     }
     &:hover{

@@ -167,7 +167,7 @@ text styles
 }
 @media (max-width: 575.98px) {
   .section-subheading-small {
-    font-size: 0.5rem;
+    font-size: 2rem;
     width: 100%;
     text-align: center !important;
   }
@@ -1331,13 +1331,6 @@ header
   justify-content: center;
   width: 100%;
 }
-@media (max-width: 991.98px) {
-  .header__wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
 .header__nav-primary {
   margin-bottom: 0;
 }
@@ -2191,6 +2184,18 @@ growth
   position: relative;
   border-radius: 2rem;
   padding: 3.7rem 6.2rem 2.5rem 4rem;
+}
+@media (max-width: 991.98px) {
+  .growth__box .content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 100;
+    background-color: white;
+    position: relative;
+    border-radius: 2rem;
+    padding: auto;
+  }
 }
 .growth__box .content h3 {
   font-size: 2.2rem;
