@@ -177,6 +177,28 @@ text styles
   }
 }
 
+.section-subheading-medium {
+  font-weight: 400;
+  font-size: 3rem;
+  width: 100%;
+  line-height: -3rem;
+}
+@media (max-width: 991.98px) {
+  .section-subheading-medium {
+    font-size: 1rem;
+    margin: 0 auto 3rem 0;
+    width: 80%;
+    text-align: center !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .section-subheading-medium {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center !important;
+  }
+}
+
 .color-black {
   color: #000000;
 }
