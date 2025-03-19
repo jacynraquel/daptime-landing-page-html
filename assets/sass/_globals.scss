@@ -20,6 +20,8 @@ wrappers
 ********************/
 [class*="__wrapper"] {background: $gradient-bg; font-weight: $bold-font-Zen; margin: 2rem;}
 
+.header__wrapper {background: transparent !important;}
+
 .hero__wrapper {background: #ffffff !important;}
 
 .button__wrapper {background: transparent !important;}

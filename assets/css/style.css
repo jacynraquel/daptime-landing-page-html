@@ -58,7 +58,7 @@ ul {
 }
 
 header {
-  background: linear-gradient(to right, rgb(117, 36, 160), rgb(68, 52, 75)) !important;
+  background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
 }
 
 span {
@@ -74,6 +74,10 @@ wrappers
   margin: 2rem;
 }
 
+.header__wrapper {
+  background: transparent !important;
+}
+
 .hero__wrapper {
   background: #ffffff !important;
 }
@@ -87,7 +91,7 @@ wrappers
 }
 
 .footer__wrapper {
-  background: linear-gradient(to right, rgb(117, 36, 160), rgb(68, 52, 75)) !important;
+  background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
   padding: 7rem !important;
   color: #FFFFFF !important;
 }
@@ -1309,7 +1313,7 @@ preloader
   transition: all 0.25s ease;
   transition-delay: 1s;
   background: rgb(255, 0, 174);
-  background: linear-gradient(45deg, rgb(117, 36, 160) 0%, rgb(177, 100, 229) 50%, rgb(68, 52, 75) 100%);
+  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -1710,7 +1714,7 @@ hero
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(147, 65, 212) 0%, rgb(217, 142, 251) 50%, rgb(147, 65, 212) 100%);
+  background: linear-gradient(45deg, rgb(161, 82, 220) 0%, rgb(108, 99, 255) 50%, rgb(255, 204, 77) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
@@ -2014,7 +2018,7 @@ video
   height: 77.6rem;
   border-radius: 50%;
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(147, 65, 212) 0%, rgb(217, 142, 251) 50%, rgb(147, 65, 212) 100%);
+  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -2032,7 +2036,7 @@ video
   outline: 0;
   background: rgb(19, 105, 236);
   cursor: pointer;
-  background: linear-gradient(45deg, rgb(19, 105, 236) 0%, rgb(101, 190, 244) 50%, rgb(19, 105, 236) 100%);
+  background: linear-gradient(to bottom right, rgb(244, 180, 0), rgb(255, 204, 77), rgb(199, 141, 18));
   background-size: 200% 200%;
   background-position: left bottom;
   position: absolute;
@@ -2399,7 +2403,7 @@ step
   color: #000;
 }
 .step .button:focus, .step .button:hover {
-  background-color: #A43AE5;
+  background-color: #F4B400;
   color: #ffffff;
 }
 .step .button__wrapper {
@@ -2409,7 +2413,7 @@ step
   margin-top: 5rem;
 }
 .step .button__wrapper a {
-  background: #A43AE5;
+  background: #F4B400;
   background: linear-gradient(0deg, rgba(164, 58, 229, 0) 0%, rgba(164, 58, 229, 0.5) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
   background-size: 200% 200%;
   background-position: center bottom;
@@ -2495,7 +2499,7 @@ client
   perspective: 1000;
   backface-visibility: hidden;
   perspective: 1000;
-  background: linear-gradient(to right, rgb(117, 36, 160), rgb(68, 52, 75));
+  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
   width: 60%;
   height: 100%;
   color: white;
@@ -2708,7 +2712,7 @@ questions
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(147, 65, 212) 0%, rgb(217, 142, 251) 50%, rgb(147, 65, 212) 100%);
+  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
@@ -2903,7 +2907,7 @@ pricing
 }
 .pricing__single-1 {
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(147, 65, 212) 0%, rgb(217, 142, 251) 100%);
+  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
   filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
   -webkit-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
   -moz-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
@@ -3128,14 +3132,12 @@ newsletter
 .newsletter__info button {
   width: 23.1rem;
   margin-left: 1rem;
-  background: rgb(242, 2, 107);
+  border: 4px solid #A43AE5 !important;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  color: white;
-  background: linear-gradient(0deg, rgb(242, 2, 107) 0%, rgb(255, 138, 175) 50%, rgb(242, 2, 107) 100%);
-  border: none;
+  color: #000;
   background-size: 200% 200%;
   background-position: bottom;
   transform: var(--transform-fix);
@@ -3146,8 +3148,9 @@ newsletter
   -moz-filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
   cursor: pointer;
 }
-.newsletter__info button:hover {
+.newsletter__info button:hover, .newsletter__info button:focus {
   background-position: top;
+  background: linear-gradient(0deg, rgba(199, 141, 18, 0.6) 0%, rgba(164, 58, 229, 0.7) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
 }
 .newsletter__img {
   text-align: right;
