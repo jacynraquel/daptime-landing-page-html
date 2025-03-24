@@ -58,7 +58,7 @@ ul {
 }
 
 header {
-  background: linear-gradient(to right, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 65%, rgb(255, 210, 134) 100%) !important;
+  background: linear-gradient(to right, rgb(58, 175, 169) 0%, rgb(0, 143, 140) 100%) !important;
 }
 
 span {
@@ -91,7 +91,7 @@ wrappers
 }
 
 .footer__wrapper {
-  background: linear-gradient(to right, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 65%, rgb(255, 210, 134) 100%) !important;
+  background: linear-gradient(to right, rgb(58, 175, 169) 0%, rgb(0, 143, 140) 100%) !important;
   padding: 7rem !important;
   color: #FFFFFF !important;
 }
@@ -1313,7 +1313,7 @@ preloader
   transition: all 0.25s ease;
   transition-delay: 1s;
   background: rgb(255, 0, 174);
-  background: linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%);
+  background: linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -1714,14 +1714,14 @@ hero
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%);
+  background: linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
   perspective: 1000;
-  filter: drop-shadow(0px 30px 20px linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%));
-  -webkit-filter: drop-shadow(0px 30px 20px linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%));
-  -moz-filter: drop-shadow(0px 30px 20px linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%));
+  filter: drop-shadow(0px 30px 20px linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%));
+  -webkit-filter: drop-shadow(0px 30px 20px linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%));
+  -moz-filter: drop-shadow(0px 30px 20px linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%));
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -2018,7 +2018,7 @@ video
   height: 77.6rem;
   border-radius: 50%;
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%);
+  background: linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -2494,7 +2494,7 @@ client
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
-  background: linear-gradient(to bottom right, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 65%, rgb(255, 210, 134) 100%);
+  background: linear-gradient(to bottom right, rgb(77, 182, 172) 0%, rgb(0, 137, 123) 100%);
   backface-visibility: hidden;
   perspective: 1000;
   backface-visibility: hidden;
@@ -2712,7 +2712,7 @@ questions
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 75%, rgb(255, 210, 134) 100%);
+  background: linear-gradient(45deg, rgb(42, 177, 157) 0%, rgb(255, 210, 134) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
@@ -3325,7 +3325,7 @@ footer
   transition: all 0.25s ease;
 }
 .footer__list ul li a:hover {
-  color: linear-gradient(to bottom right, rgb(10, 40, 90) 0%, rgb(58, 170, 165) 65%, rgb(255, 210, 134) 100%);
+  color: linear-gradient(to bottom right, rgb(77, 182, 172) 0%, rgb(0, 137, 123) 100%);
 }
 .footer__content-wrapper {
   display: flex;
