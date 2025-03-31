@@ -58,7 +58,7 @@ ul {
 }
 
 header {
-  background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
+  background: linear-gradient(90deg, #042C59, #447BBE, #FEE60C) !important;
 }
 
 span {
@@ -91,7 +91,7 @@ wrappers
 }
 
 .footer__wrapper {
-  background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
+  background: linear-gradient(90deg, #042C59, #447BBE, #FEE60C) !important;
   padding: 7rem !important;
   color: #FFFFFF !important;
 }
@@ -1313,7 +1313,7 @@ preloader
   transition: all 0.25s ease;
   transition-delay: 1s;
   background: rgb(255, 0, 174);
-  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -1714,7 +1714,7 @@ hero
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(161, 82, 220) 0%, rgb(108, 99, 255) 50%, rgb(255, 204, 77) 100%);
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
@@ -2018,7 +2018,7 @@ video
   height: 77.6rem;
   border-radius: 50%;
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -2712,7 +2712,7 @@ questions
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
