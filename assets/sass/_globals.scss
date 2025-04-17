@@ -18,7 +18,7 @@ span {font-weight: 900 !important;}
 /********************
 wrappers
 ********************/
-[class*="__wrapper"] {background: $gradient-bg; font-weight: $bold-font-Zen; margin: 2rem;}
+[class*="__wrapper"] {background: $gradient-bg-light; font-weight: $bold-font-Zen; margin: 2rem;}
 
 .header__wrapper {background: transparent !important;}
 
@@ -33,6 +33,14 @@ wrappers
 .pricing__wrapper {background: transparent !important;}
 
 .questions__wrapper {background: #E5E6F4 !important;}
+
+.screenshot__wrapper {background: #E5E6F4 !important;}
+
+.step__wrapper {background: #E5E6F4 !important;}
+
+.growth__wrapper{background: #E5E6F4 !important;}
+
+.video__wrapper{background: #E5E6F4 !important;}
 /********************
 text styles
 ********************/
@@ -100,7 +108,7 @@ button
     font-size: 1.6rem; font-weight: 600; color: #666b6d; @include animateIt;
     letter-spacing: .1rem;
     i{ margin-left: 1rem; @include animateIt; }
-    &:focus, &:hover{ background-color: $button-color-blue; color: white; outline: 0; i{ color: white; } }
+    &:focus, &:hover{ background-color: $button-color-gold; color: white; outline: 0; i{ color: white; } }
     &__wrapper{ margin: 0 auto; .button:nth-child(n+2){ margin-left: 1.8rem; } }
     @media (max-width: 650px) {
         display: flex;

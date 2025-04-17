@@ -58,7 +58,7 @@ ul {
 }
 
 header {
-  background: linear-gradient(90deg, #042C59, #447BBE, #FEE60C) !important;
+  background: linear-gradient(to right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%) !important;
 }
 
 span {
@@ -69,7 +69,7 @@ span {
 wrappers
 ********************/
 [class*=__wrapper] {
-  background: linear-gradient(to right, rgba(117, 36, 160, 0.1), rgba(68, 52, 75, 0.05));
+  background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
   font-weight: 900;
   margin: 2rem;
 }
@@ -91,7 +91,7 @@ wrappers
 }
 
 .footer__wrapper {
-  background: linear-gradient(90deg, #042C59, #447BBE, #FEE60C) !important;
+  background: linear-gradient(to right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%) !important;
   padding: 7rem !important;
   color: #FFFFFF !important;
 }
@@ -101,6 +101,22 @@ wrappers
 }
 
 .questions__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.screenshot__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.step__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.growth__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.video__wrapper {
   background: #E5E6F4 !important;
 }
 
@@ -286,7 +302,7 @@ button
   transition: all 0.25s ease;
 }
 .button:focus, .button:hover {
-  background-color: #c7dffa;
+  background-color: #FFAC00;
   color: white;
   outline: 0;
 }
@@ -1720,8 +1736,8 @@ hero
   backface-visibility: hidden;
   perspective: 1000;
   filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+  -webkit-filter: drop-shadow(0px 30px 20px rgba(8, 60, 111, 0.8));
+  -moz-filter: drop-shadow(0px 30px 20px rgba(8, 60, 111, 0.8));
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -2384,9 +2400,7 @@ step
 .step__box .content h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #f41675;
-  margin-bottom: 2.5rem;
-  line-height: -4rem;
+  color: #E29900;
   letter-spacing: 0.1rem;
 }
 .step__box .content h3 span {
@@ -2399,11 +2413,11 @@ step
   width: 94%;
 }
 .step .button {
-  border: 4px solid #A43AE5;
+  border: 4px solid #FFAC00;
   color: #000;
 }
 .step .button:focus, .step .button:hover {
-  background-color: #F4B400;
+  background-color: #FFAC00;
   color: #ffffff;
 }
 .step .button__wrapper {
@@ -2413,8 +2427,8 @@ step
   margin-top: 5rem;
 }
 .step .button__wrapper a {
-  background: #F4B400;
-  background: linear-gradient(0deg, rgba(164, 58, 229, 0) 0%, rgba(164, 58, 229, 0.5) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
+  background: transparent;
+  background: linear-gradient(0deg, rgba(255, 204, 77, 0) 0%, rrgba(255, 204, 77, 0.5) 50%, rgba(255, 204, 77, 0.8) 75%, rgb(255, 204, 77) 100%) !important;
   background-size: 200% 200%;
   background-position: center bottom;
   transform: var(--transform-fix);
@@ -2424,9 +2438,9 @@ step
 .step .button__wrapper a:hover {
   background-position: center top;
   border: none;
-  filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
-  -webkit-filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
-  -moz-filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
+  filter: drop-shadow(0px 10px 20px rgba(255, 204, 77, 0.4));
+  -webkit-filter: drop-shadow(0px 10px 20px rgba(255, 204, 77, 0.4));
+  -moz-filter: drop-shadow(0px 10px 20px rgba(255, 204, 77, 0.4));
 }
 @media (max-width: 991.98px) {
   .step__wrapper {
@@ -2494,12 +2508,11 @@ client
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
-  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
   backface-visibility: hidden;
   perspective: 1000;
   backface-visibility: hidden;
   perspective: 1000;
-  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
+  background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
   width: 60%;
   height: 100%;
   color: white;
@@ -2510,9 +2523,9 @@ client
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
-  -webkit-filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
-  -moz-filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
+  filter: drop-shadow(0px 20px 10px rgba(59, 125, 193, 0.3));
+  -webkit-filter: drop-shadow(0px 20px 10px rgba(59, 125, 193, 0.3));
+  -moz-filter: drop-shadow(0px 20px 10px rgba(59, 125, 193, 0.3));
 }
 .clients-sec .testimonial__wrapper .client .testimonial h4 {
   font-weight: 600;
@@ -2717,9 +2730,9 @@ questions
   background-position: left bottom;
   backface-visibility: hidden;
   perspective: 1000;
-  filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+  filter: drop-shadow(0px 30px 20px rgb(59, 125, 193));
+  -webkit-filter: drop-shadow(0px 30px 20px rgb(59, 125, 193));
+  -moz-filter: drop-shadow(0px 30px 20px rgb(59, 125, 193));
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -2907,9 +2920,9 @@ pricing
 }
 .pricing__single-1 {
   background: rgb(147, 65, 212);
-  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
-  filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
-  -webkit-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
+  background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
+  filter: drop-shadow(0px 20px 10px rgba(8, 60, 111, 0.4));
+  -webkit-filter: drop-shadow(0px 20px 10px rgba(8, 60, 111, 0.4));
   -moz-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
   transform: var(--transform-fix);
   backface-visibility: hidden;
@@ -3115,7 +3128,7 @@ newsletter
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #fef2f6;
+  background-color: #E5E6F4;
   border-radius: 3rem;
 }
 .newsletter__info {
@@ -3132,7 +3145,7 @@ newsletter
 .newsletter__info button {
   width: 23.1rem;
   margin-left: 1rem;
-  border: 4px solid #A43AE5 !important;
+  border: 4px solid #FFAC00 !important;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
@@ -3143,14 +3156,14 @@ newsletter
   transform: var(--transform-fix);
   backface-visibility: hidden;
   perspective: 1000;
-  filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
-  -webkit-filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
-  -moz-filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
+  filter: drop-shadow(0px 10px 10px rgba(255, 204, 77, 0.4));
+  -webkit-filter: drop-shadow(0px 10px 10px rgba(255, 204, 77, 0.4));
+  -moz-filter: drop-shadow(0px 10px 10px rgba(255, 204, 77, 0.4));
   cursor: pointer;
 }
 .newsletter__info button:hover, .newsletter__info button:focus {
   background-position: top;
-  background: linear-gradient(0deg, rgba(199, 141, 18, 0.6) 0%, rgba(164, 58, 229, 0.7) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
+  background: linear-gradient(0deg, rgba(255, 204, 77, 0) 0%, rrgba(255, 204, 77, 0.5) 50%, rgba(255, 204, 77, 0.8) 75%, rgb(255, 204, 77) 100%) !important;
 }
 .newsletter__img {
   text-align: right;
@@ -3212,7 +3225,7 @@ newsletter
 .input-field {
   width: 33rem;
   height: 6.5rem;
-  border: 4px solid #ffdbe8;
+  border: 4px solid #c7dffa;
   border-radius: 10rem;
   padding: 0 2rem 0 3rem;
   font-size: 1.6rem;
@@ -3325,7 +3338,7 @@ footer
   transition: all 0.25s ease;
 }
 .footer__list ul li a:hover {
-  color: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
+  color: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
 }
 .footer__content-wrapper {
   display: flex;
@@ -3356,6 +3369,8 @@ footer
 @media (max-width: 991.98px) {
   .footer__content-wrapper {
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
   }
   .footer__wrapper {
     width: calc(100% - 5rem);
@@ -3372,6 +3387,7 @@ footer
     margin-bottom: 3rem;
   }
   .footer .download-buttons {
+    margin-top: 2rem;
     margin-right: 0;
   }
   .footer .download-buttons h5 {
