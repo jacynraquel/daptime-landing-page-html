@@ -58,7 +58,11 @@ ul {
 }
 
 header {
+<<<<<<< Updated upstream
   background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
+=======
+  background: linear-gradient(to right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%) !important;
+>>>>>>> Stashed changes
 }
 
 span {
@@ -69,7 +73,7 @@ span {
 wrappers
 ********************/
 [class*=__wrapper] {
-  background: linear-gradient(to right, rgba(117, 36, 160, 0.1), rgba(68, 52, 75, 0.05));
+  background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
   font-weight: 900;
   margin: 2rem;
 }
@@ -91,7 +95,11 @@ wrappers
 }
 
 .footer__wrapper {
+<<<<<<< Updated upstream
   background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
+=======
+  background: linear-gradient(to right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%) !important;
+>>>>>>> Stashed changes
   padding: 7rem !important;
   color: #FFFFFF !important;
 }
@@ -101,6 +109,22 @@ wrappers
 }
 
 .questions__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.screenshot__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.step__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.growth__wrapper {
+  background: #E5E6F4 !important;
+}
+
+.video__wrapper {
   background: #E5E6F4 !important;
 }
 
@@ -286,7 +310,7 @@ button
   transition: all 0.25s ease;
 }
 .button:focus, .button:hover {
-  background-color: #c7dffa;
+  background-color: #FFAC00;
   color: white;
   outline: 0;
 }
@@ -542,14 +566,14 @@ blog hero
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background: rgb(242, 2, 107);
-  background: linear-gradient(45deg, rgb(242, 2, 107) 0%, rgb(255, 138, 175) 100%);
+  background: rgb(208, 229, 245);
+  background: linear-gradient(to right, rgb(253, 199, 48) 0%, rgb(248, 167, 38) 100%);
   transform: var(--transform-fix);
   backface-visibility: hidden;
   perspective: 1000;
-  filter: drop-shadow(0px 20px 20px rgba(245, 69, 144, 0.4));
-  -webkit-filter: drop-shadow(0px 20px 20px rgba(245, 69, 144, 0.4));
-  -moz-filter: drop-shadow(0px 20px 20px rgba(245, 69, 144, 0.4));
+  filter: drop-shadow(0px 20px 20px rgba(253, 199, 48, 0.4));
+  -webkit-filter: drop-shadow(0px 20px 20px rgba(253, 199, 48, 0.4));
+  -moz-filter: drop-shadow(0px 20px 20px rgba(253, 199, 48, 0.4));
   position: relative;
   bottom: -1.5rem;
 }
@@ -1118,7 +1142,7 @@ blog single
   width: 100vw;
 }
 .blog_single .blog_related__wrapper {
-  background-color: #f0f7fc;
+  background-color: #ffffff;
   padding: 10rem 0;
 }
 .blog_single .blog_related__header {
@@ -1313,7 +1337,11 @@ preloader
   transition: all 0.25s ease;
   transition-delay: 1s;
   background: rgb(255, 0, 174);
+<<<<<<< Updated upstream
   background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
+=======
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
+>>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -1345,13 +1373,13 @@ header
 }
 .header__links {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Zen Kaku Gothic New", sans-serif !important;
   font-weight: 400;
   font-size: 3rem;
 }
 .header__links:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   cursor-decoration: pointer;
 }
 .header__wrapper {
@@ -1363,26 +1391,31 @@ header
 }
 .header__nav-primary {
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5 rem;
 }
 .header__nav-primary > li {
   list-style: none;
   display: inline-block;
+  padding-right: 3rem;
 }
 .header__nav-primary > li:first-child a {
-  color: #f41976;
+  color: #ffffff;
 }
 .header__nav-primary > li:first-child i::before {
   opacity: var(--var-primary-opacity, 0.5);
+  font-weight: 700;
 }
 .header__nav-primary > li:first-child i::after {
   opacity: var(--var-secondary-opacity, 1);
 }
 .header__nav-primary > li:nth-child(n+2) {
-  margin-left: 3rem;
+  margin-right: 1rem;
 }
 .header__nav-primary > li > a {
   font-size: 1.6rem;
-  color: #666b6d;
+  color: #ffffff;
   font-weight: 500 !important;
 }
 @media (min-width: 991.98px) {
@@ -1394,7 +1427,7 @@ header
     display: block;
     width: 0;
     height: 0.15rem;
-    background-color: #666b6d;
+    background-color: #ffffff;
     position: absolute;
     top: 100%;
     left: 50%;
@@ -1408,6 +1441,9 @@ header
   .header__nav-primary > li > a:hover::before {
     width: calc(100% - 2rem);
   }
+}
+.header__nav-primary > li > a:hover {
+  transition: font-weight 0.2s ease;
 }
 .header__nav .nav__dropdown {
   width: auto;
@@ -1435,6 +1471,7 @@ header
   }
 }
 .header__nav .nav__dropdown-box {
+  margin-top: 2rem;
   width: 25rem;
   display: block;
   right: 0;
@@ -1714,14 +1751,23 @@ hero
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
+<<<<<<< Updated upstream
   background: linear-gradient(45deg, rgb(161, 82, 220) 0%, rgb(108, 99, 255) 50%, rgb(255, 204, 77) 100%);
+=======
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
+>>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
   perspective: 1000;
   filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+<<<<<<< Updated upstream
   -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
   -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+=======
+  -webkit-filter: drop-shadow(0px 30px 20px rgba(8, 60, 111, 0.8));
+  -moz-filter: drop-shadow(0px 30px 20px rgba(8, 60, 111, 0.8));
+>>>>>>> Stashed changes
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -2018,7 +2064,11 @@ video
   height: 77.6rem;
   border-radius: 50%;
   background: rgb(147, 65, 212);
+<<<<<<< Updated upstream
   background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
+=======
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
+>>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -2384,9 +2434,7 @@ step
 .step__box .content h3 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #f41675;
-  margin-bottom: 2.5rem;
-  line-height: -4rem;
+  color: #E29900;
   letter-spacing: 0.1rem;
 }
 .step__box .content h3 span {
@@ -2399,11 +2447,11 @@ step
   width: 94%;
 }
 .step .button {
-  border: 4px solid #A43AE5;
+  border: 4px solid #FFAC00;
   color: #000;
 }
 .step .button:focus, .step .button:hover {
-  background-color: #F4B400;
+  background-color: #FFAC00;
   color: #ffffff;
 }
 .step .button__wrapper {
@@ -2413,8 +2461,8 @@ step
   margin-top: 5rem;
 }
 .step .button__wrapper a {
-  background: #F4B400;
-  background: linear-gradient(0deg, rgba(164, 58, 229, 0) 0%, rgba(164, 58, 229, 0.5) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
+  background: transparent;
+  background: linear-gradient(0deg, rgba(255, 204, 77, 0) 0%, rrgba(255, 204, 77, 0.5) 50%, rgba(255, 204, 77, 0.8) 75%, rgb(255, 204, 77) 100%) !important;
   background-size: 200% 200%;
   background-position: center bottom;
   transform: var(--transform-fix);
@@ -2424,9 +2472,9 @@ step
 .step .button__wrapper a:hover {
   background-position: center top;
   border: none;
-  filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
-  -webkit-filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
-  -moz-filter: drop-shadow(0px 10px 20px rgba(164, 58, 229, 0.4));
+  filter: drop-shadow(0px 10px 20px rgba(255, 204, 77, 0.4));
+  -webkit-filter: drop-shadow(0px 10px 20px rgba(255, 204, 77, 0.4));
+  -moz-filter: drop-shadow(0px 10px 20px rgba(255, 204, 77, 0.4));
 }
 @media (max-width: 991.98px) {
   .step__wrapper {
@@ -2494,12 +2542,19 @@ client
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
+<<<<<<< Updated upstream
   background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
+=======
+>>>>>>> Stashed changes
   backface-visibility: hidden;
   perspective: 1000;
   backface-visibility: hidden;
   perspective: 1000;
+<<<<<<< Updated upstream
   background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
+=======
+  background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
+>>>>>>> Stashed changes
   width: 60%;
   height: 100%;
   color: white;
@@ -2510,9 +2565,9 @@ client
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
-  -webkit-filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
-  -moz-filter: drop-shadow(0px 20px 10px rgba(161, 82, 220, 0.4));
+  filter: drop-shadow(0px 20px 10px rgba(59, 125, 193, 0.3));
+  -webkit-filter: drop-shadow(0px 20px 10px rgba(59, 125, 193, 0.3));
+  -moz-filter: drop-shadow(0px 20px 10px rgba(59, 125, 193, 0.3));
 }
 .clients-sec .testimonial__wrapper .client .testimonial h4 {
   font-weight: 600;
@@ -2654,7 +2709,7 @@ questions
   font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   font-size: 2.2rem;
-  color: #A43AE5;
+  color: #083C70;
   position: absolute;
   top: 50%;
   left: -1.2rem;
@@ -2712,14 +2767,18 @@ questions
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
+<<<<<<< Updated upstream
   background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
+=======
+  background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
+>>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
   perspective: 1000;
-  filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
+  filter: drop-shadow(0px 30px 20px rgb(59, 125, 193));
+  -webkit-filter: drop-shadow(0px 30px 20px rgb(59, 125, 193));
+  -moz-filter: drop-shadow(0px 30px 20px rgb(59, 125, 193));
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -2887,9 +2946,11 @@ pricing
   font-family: "Font Awesome 5 Pro";
   font-weight: 800;
   font-size: 2rem;
+  color: #09AE00 !important;
 }
 .pricing__single .list ul li.not-included::before {
   content: "\f00d";
+  color: #E60303 !important;
 }
 .pricing__single .button {
   color: #A656DF !important;
@@ -2907,9 +2968,15 @@ pricing
 }
 .pricing__single-1 {
   background: rgb(147, 65, 212);
+<<<<<<< Updated upstream
   background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
   filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
   -webkit-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
+=======
+  background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
+  filter: drop-shadow(0px 20px 10px rgba(8, 60, 111, 0.4));
+  -webkit-filter: drop-shadow(0px 20px 10px rgba(8, 60, 111, 0.4));
+>>>>>>> Stashed changes
   -moz-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
   transform: var(--transform-fix);
   backface-visibility: hidden;
@@ -3115,7 +3182,7 @@ newsletter
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: #fef2f6;
+  background-color: #E5E6F4;
   border-radius: 3rem;
 }
 .newsletter__info {
@@ -3132,7 +3199,7 @@ newsletter
 .newsletter__info button {
   width: 23.1rem;
   margin-left: 1rem;
-  border: 4px solid #A43AE5 !important;
+  border: 4px solid #FFAC00 !important;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
@@ -3143,14 +3210,14 @@ newsletter
   transform: var(--transform-fix);
   backface-visibility: hidden;
   perspective: 1000;
-  filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
-  -webkit-filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
-  -moz-filter: drop-shadow(0px 10px 10px rgba(245, 69, 144, 0.4));
+  filter: drop-shadow(0px 10px 10px rgba(255, 204, 77, 0.4));
+  -webkit-filter: drop-shadow(0px 10px 10px rgba(255, 204, 77, 0.4));
+  -moz-filter: drop-shadow(0px 10px 10px rgba(255, 204, 77, 0.4));
   cursor: pointer;
 }
 .newsletter__info button:hover, .newsletter__info button:focus {
   background-position: top;
-  background: linear-gradient(0deg, rgba(199, 141, 18, 0.6) 0%, rgba(164, 58, 229, 0.7) 50%, rgba(164, 58, 229, 0.8) 75%, rgb(164, 58, 229) 100%);
+  background: linear-gradient(0deg, rgba(255, 204, 77, 0) 0%, rrgba(255, 204, 77, 0.5) 50%, rgba(255, 204, 77, 0.8) 75%, rgb(255, 204, 77) 100%) !important;
 }
 .newsletter__img {
   text-align: right;
@@ -3212,7 +3279,7 @@ newsletter
 .input-field {
   width: 33rem;
   height: 6.5rem;
-  border: 4px solid #ffdbe8;
+  border: 4px solid #c7dffa;
   border-radius: 10rem;
   padding: 0 2rem 0 3rem;
   font-size: 1.6rem;
@@ -3325,7 +3392,11 @@ footer
   transition: all 0.25s ease;
 }
 .footer__list ul li a:hover {
+<<<<<<< Updated upstream
   color: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
+=======
+  color: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
+>>>>>>> Stashed changes
 }
 .footer__content-wrapper {
   display: flex;
@@ -3356,6 +3427,8 @@ footer
 @media (max-width: 991.98px) {
   .footer__content-wrapper {
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
   }
   .footer__wrapper {
     width: calc(100% - 5rem);
@@ -3372,6 +3445,7 @@ footer
     margin-bottom: 3rem;
   }
   .footer .download-buttons {
+    margin-top: 2rem;
     margin-right: 0;
   }
   .footer .download-buttons h5 {

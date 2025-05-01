@@ -94,7 +94,7 @@ blog single
     }
     .blog{
         &_related{ width: 100vw;
-            &__wrapper{ background-color: #f0f7fc; padding: 10rem 0; }
+            &__wrapper{ background-color: #ffffff; padding: 10rem 0; }
             &__header{ width: 100%; display: flex; justify-content: space-between; align-items: center; margin-bottom: 4rem;
                 .screenshot-nav-next{ margin-left: 1rem; }
                 h3{ font-size: 3rem; font-weight: 600; color: $color-black; letter-spacing: -.4px; }

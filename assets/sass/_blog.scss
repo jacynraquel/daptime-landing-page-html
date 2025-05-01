@@ -17,10 +17,10 @@ blog hero
     }
     .icon{ width: 14.5rem; height: 14.5rem; border-radius: 50%; display: inline-flex;
         justify-content: center; align-items: center;
-        background: rgb(242,2,107);
-        background: linear-gradient(45deg, rgba(242,2,107,1) 0%, rgba(255,138,175,1) 100%); transform: var(--transform-fix); backface-visibility: hidden; perspective: 1000;
-        filter: drop-shadow(0px 20px 20px rgba(245,69,144,.4)); -webkit-filter: drop-shadow(0px 20px 20px rgba(245,69,144,.4));
-        -moz-filter: drop-shadow(0px 20px 20px rgba(245,69,144,.4)); position: relative; bottom: -1.5rem;
+        background: rgb(208, 229, 245);
+        background: linear-gradient(to right, rgba(253, 199, 48, 1) 0%, rgba(248, 167, 38, 1) 100%); transform: var(--transform-fix); backface-visibility: hidden; perspective: 1000;
+        filter: drop-shadow(0px 20px 20px rgba(253, 199, 48, 0.4)); -webkit-filter: drop-shadow(0px 20px 20px rgba(253, 199, 48, 0.4));
+        -moz-filter: drop-shadow(0px 20px 20px rgba(253, 199, 48, 0.4)); position: relative; bottom: -1.5rem;
         i{ font-size: 4.8rem; color: white; }
     }
     @media (min-width: 991.98px) and (max-width: 1200px) {

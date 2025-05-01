@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>DapTime</title>
 
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
   <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="DapTime" />
@@ -40,11 +41,28 @@
   <header class="header header-2">
     <div class="container">
       <div class="header__wrapper">
-        <div class="header__logo">
+        <div class="header__logo px-5 mr-auto">
           <a class="header__links" href="index.html">
             <img id="header-logo" src="assets/images/daptime.webp" style="width: 5rem; height: auto" alt="DapTime">
             DapTime
           </a>
+        </div>
+        <div class="header__nav">
+          <ul class="header__nav-primary">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li class="nav__dropdown dropdown-wrapper" id="menu-1">
+              <a href="#" class="nav__dropdown-info dropdown-info">
+                <img src="./assets/images/login-2.webp" class="px-3"> Login
+              </a>
+              <ul class="nav__dropdown-box dropdown-box">
+                <li><a href="https://app.daptime.com/auth/sign-in">Admin</a></li>
+                <!-- <li><a href="index2.html">Employee</a></li> -->
+              </ul>
+            </li>
+          </ul>
+          <span><i class="fas fa-times"></i></span>
         </div>
         <!-- <div class="header__bars">
           <div class="header__bars-bar header__bars-bar-1"></div>
@@ -66,14 +84,14 @@
 
             <p class="paragraph w-100"><span>DapTime</span> is a powerful workforce management solution that helps businesses seamlessly manage global teams and optimize operations in today's digital landscape.</p>
             <div class="download-buttons">
-              <a href="#" class="object-fit-none">
+              <a href="https://play.google.com/store/apps/details?id=com.escosoftsolutions.daptime&pli=1" class="object-fit-none">
                 <img class="img-fluid " src="assets/images/google-play-button.png">
                 <!-- <i class="fab fa-google-play"></i>
                 <div class="button-content">
                   <h6>GET IT ON <span>Google Play</span></h6>
                 </div> -->
               </a>
-              <a href="#">
+              <a href="https://apps.apple.com/us/app/daptime/id6740058423">
                 <img class="img-fluid " src="assets/images/app-store-button.png">
                 <!-- <i class="fab fa-apple"></i>
                 <div class="button-content">
@@ -177,10 +195,10 @@
           </div>
           <div class="row mt-5">
             <div class="button__wrapper col-5 offset-md-5 d-flex gap-2 justify-content-center">
-              <a href="#" class="growth__btn">
+              <a href="https://play.google.com/store/apps/details?id=com.escosoftsolutions.daptime&pli=1" class="growth__btn">
                 <img src="assets/images/google-play-button.png" class="img-fluid"/>
               </a>
-              <a href="#" class="growth__btn">
+              <a href="https://apps.apple.com/us/app/daptime/id6740058423" class="growth__btn">
                <img src="assets/images/app-store-button.png" class="img-fluid" />
              </a>
            </div>
@@ -279,7 +297,7 @@
         </div>
         <div class="video__background">
           <img src="assets/images/video-bg-1.png" alt="image" class="texture-1">
-          <img src="assets/images/daptime.gif" alt="image" class="phone">
+          <img src="assets/images/daptime-new.gif" alt="image" class="phone">
           <img src="assets/images/video-bg-2.png" alt="image" class="texture-2">
         </div>
       </div>
@@ -547,8 +565,8 @@
   </div>
 </div>
 <div class="col-lg-6 order-1 order-lg-2 ms-5">
-  <div class="questions-img">
-    <img src="assets/images/phone-01.png" alt="image">
+  <div class="questions-img hero-img">
+    <img class="mx-auto img-fluid" src="assets/images/phone-01.png" alt="image">
   </div>
 </div>
 </div>
@@ -566,18 +584,18 @@
           <div>
             <div class="pricing__single pricing__single-1">
               <div class="icon">
-                <img class="img-fluid" style="width: 50%; height:auto;"src="assets/images/powerplan.png">
+                <img class="img-fluid" style="width: 50%; height:auto;"src="assets/images/powerplan.webp">
               </div>
               <h4>POWERPLAN</h4>
               <div class="row">
                 <div class="col text-right">
                   <h3>$10</h3>
-                  <h6 class="p-2">per location</h6>
+                  <h6 class="p-2 text-light">per location</h6>
                 </div>
                 <h3> + </h3>
-                <div class="col">
+                <div class="col mt-0">
                   <h3>$6</h3>
-                  <h6 class="p-2">per employee each payday</h6>
+                  <h6 class="p-2 text-light">per employee each payday</h6>
                 </div>
               </div>
               <div class="list col-9 mt-4">
@@ -625,8 +643,8 @@
       <div class="screenshot__info">
         <h2 class="section-heading color-black">Have a look at what’s inside the app.</h2>
         <div class="screenshot-nav">
-          <div class="screenshot-nav-prev"><img style="width:5rem; height:auto;" class="img-fluid"src="assets/images/left-arrow.svg"/></div>
-          <div class="screenshot-nav-next"><img style="width:5rem; height:auto;" class="img-fluid"src="assets/images/right-arrow.svg"/></div>
+          <div class="screenshot-nav-prev"><img style="width:5rem; height:auto;" class="img-fluid"src="assets/images/left-arrow.webp"/></div>
+          <div class="screenshot-nav-next"><img style="width:5rem; height:auto;" class="img-fluid"src="assets/images/right-arrow.webp"/></div>
         </div>
       </div>
     </div>
@@ -695,7 +713,7 @@
         <div class="col-lg-4 ">
           <div class="footer__info">
             <div class="footer__info--logo">
-              <a href="#" class="header__links">
+              <a href="index.html" class="header__links">
                 <img class="img-fluid" src="assets/images/daptime.webp" style="width: 5rem; height: auto" alt="image">
                 DapTime
               </a>
@@ -714,32 +732,41 @@
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#faq">FAQ</a></li>
+                <li><a href="./terms-and-privacy.html#terms">Terms and Conditions</a></li>
+                <li><a href="./terms-and-privacy.html#privacy">Privacy Policy</a></li>
               </ul>
             </div>
             <div class="footer__list">
-             <div class="social">
+             <div class="social text-center">
               <ul>
                 <li>Socials</li>
-                <li class="facebook"><a href="#">
+                <!-- Facebook -->
+                <!-- <li class="facebook"><a href="#">
                   <img style="width: 1rem; height:auto;"class="img-fluid" src="assets/images/Facebook.webp" alt="facebook profile: Daptime"/>
-                </a></li>
-                <li class="twitter"><a href="#"><img style="width: 1.5rem; height:auto;" class="img-fluid" src="assets/images/Instagram.webp" alt="instagram profile: Daptime"/></a></li>
-                <li class="linkedin"><a href="#"><img style="width: 1.5rem; height:auto;" class="img-fluid" src="assets/images/LinkedIn.webp" alt="LinkedIn profile: Daptime"/></a></li>
-                <li class="youtube"><a href="#"><img style="width: 1.5rem; height:auto;" class="img-fluid" src="assets/images/Youtube.webp" alt="Youtube profile: Daptime"/></a></li>
+                </a></li> -->
+
+                <!-- Twitter -->
+                <!-- <li class="twitter"><a href="#"><img style="width: 1.5rem; height:auto;" class="img-fluid" src="assets/images/Instagram.webp" alt="instagram profile: Daptime"/></a></li> -->
+
+                <!-- LinkedIn -->
+                <li class="linkedin"><a href="https://www.linkedin.com/showcase/daptime/"><img style="width: 1.5rem; height:auto;" class="img-fluid" src="assets/images/LinkedIn.webp" alt="LinkedIn profile: Daptime"/></a></li>
+
+                <!-- Youtube -->
+                <!-- <li class="youtube"><a href="#"><img style="width: 1.5rem; height:auto;" class="img-fluid" src="assets/images/Youtube.webp" alt="Youtube profile: Daptime"/></a></li> -->
               </ul>
             </div>
           </div>
           <div class="download-buttons">
             <h5 class="text-light px-4">Download</h5>
             <div class="download-buttons">
-              <a href="#" class="object-fit-none">
+              <a href="https://play.google.com/store/apps/details?id=com.escosoftsolutions.daptime&pli=1" class="object-fit-none">
                 <img class="img-fluid " src="assets/images/google-play-button.png">
                 <!-- <i class="fab fa-google-play"></i>
                 <div class="button-content">
                   <h6>GET IT ON <span>Google Play</span></h6>
                 </div> -->
               </a>
-              <a href="#">
+              <a href="https://apps.apple.com/us/app/daptime/id6740058423">
                 <img class="img-fluid " src="assets/images/app-store-button.png">
                 <!-- <i class="fab fa-apple"></i>
                 <div class="button-content">
