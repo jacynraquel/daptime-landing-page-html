@@ -58,11 +58,7 @@ ul {
 }
 
 header {
-<<<<<<< Updated upstream
-  background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
-=======
   background: linear-gradient(to right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%) !important;
->>>>>>> Stashed changes
 }
 
 span {
@@ -95,11 +91,7 @@ wrappers
 }
 
 .footer__wrapper {
-<<<<<<< Updated upstream
-  background: linear-gradient(to right, rgb(108, 99, 255), rgb(161, 82, 220), rgb(255, 204, 77)) !important;
-=======
   background: linear-gradient(to right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%) !important;
->>>>>>> Stashed changes
   padding: 7rem !important;
   color: #FFFFFF !important;
 }
@@ -1337,11 +1329,7 @@ preloader
   transition: all 0.25s ease;
   transition-delay: 1s;
   background: rgb(255, 0, 174);
-<<<<<<< Updated upstream
-  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
-=======
   background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
->>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -1751,23 +1739,14 @@ hero
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-<<<<<<< Updated upstream
-  background: linear-gradient(45deg, rgb(161, 82, 220) 0%, rgb(108, 99, 255) 50%, rgb(255, 204, 77) 100%);
-=======
   background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
->>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
   perspective: 1000;
   filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-<<<<<<< Updated upstream
-  -webkit-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-  -moz-filter: drop-shadow(0px 30px 20px rgba(147, 65, 212, 0.4));
-=======
   -webkit-filter: drop-shadow(0px 30px 20px rgba(8, 60, 111, 0.8));
   -moz-filter: drop-shadow(0px 30px 20px rgba(8, 60, 111, 0.8));
->>>>>>> Stashed changes
   animation-name: animateGradient;
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
@@ -2064,11 +2043,7 @@ video
   height: 77.6rem;
   border-radius: 50%;
   background: rgb(147, 65, 212);
-<<<<<<< Updated upstream
-  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
-=======
   background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
->>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   animation-name: animateGradient;
@@ -2542,19 +2517,11 @@ client
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
-<<<<<<< Updated upstream
-  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
-=======
->>>>>>> Stashed changes
   backface-visibility: hidden;
   perspective: 1000;
   backface-visibility: hidden;
   perspective: 1000;
-<<<<<<< Updated upstream
-  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
-=======
   background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
->>>>>>> Stashed changes
   width: 60%;
   height: 100%;
   color: white;
@@ -2767,11 +2734,7 @@ questions
   top: 50%;
   transform: translateY(-50%);
   background: rgb(147, 65, 212);
-<<<<<<< Updated upstream
-  background: linear-gradient(45deg, rgb(108, 99, 255) 0%, rgb(161, 82, 220) 50%, rgb(255, 204, 77) 100%);
-=======
   background: linear-gradient(45deg, rgb(59, 125, 193) 0%, rgb(8, 104, 179) 25%, rgb(59, 125, 193) 45%, rgb(255, 204, 77) 75%, rgb(249, 155, 32) 100%);
->>>>>>> Stashed changes
   background-size: 200% 200%;
   background-position: left bottom;
   backface-visibility: hidden;
@@ -2968,15 +2931,9 @@ pricing
 }
 .pricing__single-1 {
   background: rgb(147, 65, 212);
-<<<<<<< Updated upstream
-  background: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(255, 204, 77));
-  filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
-  -webkit-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
-=======
   background: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
   filter: drop-shadow(0px 20px 10px rgba(8, 60, 111, 0.4));
   -webkit-filter: drop-shadow(0px 20px 10px rgba(8, 60, 111, 0.4));
->>>>>>> Stashed changes
   -moz-filter: drop-shadow(0px 20px 10px rgba(147, 65, 212, 0.4));
   transform: var(--transform-fix);
   backface-visibility: hidden;
@@ -3392,11 +3349,7 @@ footer
   transition: all 0.25s ease;
 }
 .footer__list ul li a:hover {
-<<<<<<< Updated upstream
-  color: linear-gradient(to bottom right, rgb(161, 82, 220), rgb(204, 128, 244));
-=======
   color: linear-gradient(to bottom right, rgb(8, 60, 111) 0%, rgb(59, 125, 193) 100%);
->>>>>>> Stashed changes
 }
 .footer__content-wrapper {
   display: flex;
