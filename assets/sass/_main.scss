@@ -665,6 +665,8 @@ pricing
   .section-heading{ text-align: left; margin: 0; width: 33%; }
   &__single{ 
     padding: 4.5rem 0 2.3rem 0; display: flex; flex-direction: column; align-items: center; border-radius: 3rem;
+    .row > [class*="col"] {display: flex; flex-direction: column;}
+    .box {flex:1;}
     .icon{ width: 13.8rem; height: 13.8rem; background-color: white; border-radius: 50%; display: flex; justify-content: center;
       align-items: center;
       i{ font-size: 6rem; } 
@@ -673,12 +675,12 @@ pricing
     h4{ font-size: 1.8rem; font-weight: 600; color: white; margin-top: 2.4rem; }
     h3{ font-size: 7rem; font-weight: 500; color: white; margin-top: -.4rem; }
     h6{ font-size: 1.8rem; font-weight: 500; margin-top: 1rem; }
-    .list{ background-color: white; position: relative; padding: 3.7rem 2rem 2.1rem 2rem; border-radius: 2rem; width: 97%;
+    .list{ background-color: white; position: relative; padding: 3.7rem 0 2.1rem 0; border-radius: 2rem; width: 97%;
       margin-top: 4.3rem;
       &::before{ content: ""; width: 4.8rem; height: 2.2rem; background: url(../images/arrow.png) no-repeat; background-size: cover;
         display: block; position: absolute; top: -2rem; left: 50%; transform: translateX(-50%); -webkit-transform: translateX(-50%);
       }
-      ul{ font-size: 1.6rem; line-height: 2.5rem; color: $color-para-dark; width: 60%; margin: 0 auto 0 auto !important;
+      ul{ font-size: 1.6rem; line-height: 2.5rem; color: $color-para-dark; width: 75%; margin: 0 auto 0 auto !important;
         li{ position: relative; 
           &::before{ content: "\f00c"; font-family: "Font Awesome 5 Pro"; font-weight: 800; font-size: 2rem; 
             color: $button-color-green !important;
@@ -731,6 +733,25 @@ pricing
     }
     &-3{
       background: rgb(25,165,161); background: linear-gradient(45deg, rgba(25,165,161,1) 0%, rgba(99,232,228,1) 100%);
+      filter: drop-shadow(0px 20px 10px rgba(79,188,186,.4));
+      -webkit-filter: drop-shadow(0px 20px 10px rgba(79,188,186,.4));
+      -moz-filter: drop-shadow(0px 20px 10px rgba(79,188,186,.4));
+      transform: var(--transform-fix);
+      backface-visibility: hidden; perspective: 1000;
+      .icon{
+        i{ color: #2db7b3; }
+      }
+      h6{ color: #c9f7f6; }
+      .list{
+        ul{
+          li{
+            &::before{ color: #2db7b3; }
+          }
+        }
+      }
+    }
+    &-4{
+      background: rgb(102, 0, 153); background: linear-gradient(45deg, rgb(102, 0, 153) 0%, rgb(204, 153, 255) 100%);
       filter: drop-shadow(0px 20px 10px rgba(79,188,186,.4));
       -webkit-filter: drop-shadow(0px 20px 10px rgba(79,188,186,.4));
       -moz-filter: drop-shadow(0px 20px 10px rgba(79,188,186,.4));
